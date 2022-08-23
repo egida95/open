@@ -89,32 +89,44 @@
 
 
 
-class Course:
-    def __init__(self,name,dlitelnost,napravlenie) -> None:
-        self.name = name 
-        self.dlitelnost = dlitelnost
-        self.napravlenie = napravlenie
+# class Course:
+#     def __init__(self,name,dlitelnost,napravlenie) -> None:
+#         self.name = name 
+#         self.dlitelnost = dlitelnost
+#         self.napravlenie = napravlenie
         
-b = Course('IT', 5,'backend')
+# b = Course('IT', 5,'backend')
 
-# print(b.name)
+# # print(b.name)
 
 
-class Student:
-    def __init__(self,full_name,email,phone,course,studies,comment) -> None:
-        self.full_name = full_name 
-        self.email = email
-        self.phone = phone
-        self.course = course  
-        self.studies = studies
-        self.comment = comment
+# class Student:
+#     def __init__(self,full_name,email,phone,course,studies,comment) -> None:
+#         self.full_name = full_name 
+#         self.email = email
+#         self.phone = phone
+#         self.course = course  
+#         self.studies = studies
+#         self.comment = comment
     
     
-    def __str__(self):
-        return f'Student name = {self.phone}'
+#     def __str__(self):
+#         return f'Student name = {self.phone}'
     
         
-s = Student('Shoto', 'shotogmail.com', 123456, b, 'asdfg', 'qwerty')
+# s = Student('Shoto', 'shotogmail.com', 123456, b, 'asdfg', 'qwerty')
 
-print(s.full_name)
+# print(s.email)
+
+
+# class Cat:
+#     def __init__(self,name: str ,poroda: str , age: str ):
+#         self.name = name 
+#         self.poroda = poroda 
+#         self.age = age 
         
+#     def __str__(self):
+#         return f'Кот по имени{self.name}'
+    
+#     def info(self):
+#         return f''
